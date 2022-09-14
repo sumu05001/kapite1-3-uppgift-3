@@ -1,0 +1,6 @@
+ordning=int(input())
+rabatt=int(input())
+f=(rabatt / 100)
+g=(ordning * f)
+h=(ordning-g)
+print(f,"\n",g,"\n",("priset:"),h)
